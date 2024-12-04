@@ -1,0 +1,34 @@
+/* Estilos generales */
+body {
+    font-family: monospace, sans-serif;
+  }
+  
+  /* Títulos */
+  h1 {
+    color: #007bff;
+  }
+  
+  /* Carrusel */
+  .carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  /* Tarjetas */
+  .card {
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Imagen responsiva */
+  .img-fluid {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+@media screen and(max-width:768px){
+    
+}
